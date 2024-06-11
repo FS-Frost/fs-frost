@@ -1,4 +1,4 @@
-# Websites
+# My Websites
 
 1. [sql-playground](https://fs-frost.github.io/sql-playground/): Online SQL editor with SQLite running on the browser.
 1. [mai-chat](https://fs-frost.github.io/mai-chat/): AI-powered chat running on the browser with GPU acceleration.
@@ -11,7 +11,7 @@
 1. [hui](https://fs-frost.github.io/hui/): Reactive HTML UI framework for simple web applications.
 1. [palindrome-gui](https://fs-frost.github.io/palindrome-gui/): Tells you if a word is a palindrome.
 
-## Tools
+## My Tools
 
 1. [gocker](https://github.com/FS-Frost/gocker): CLI tool to execute commands on docker containers.
 1. [asu-regex-js](https://github.com/FS-Frost/asu-regex-js): Parser to work with SubStation Alpha Subtitles (SSA/ASS) in TypeScript and JavaScript.
