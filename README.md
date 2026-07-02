@@ -29,9 +29,9 @@ Full stack developer building web tools, browser-based utilities and automation 
 
 </div>
 
-## Sitios web
+## Websites
 
-| Proyecto | Descripción |
+| Project | Description |
 | --- | --- |
 | [sql-playground](https://fs-frost.github.io/sql-playground/) | Online SQL editor with SQLite running on the browser. |
 | [mai-chat](https://fs-frost.github.io/mai-chat/) | AI-powered chat running on the browser with GPU acceleration. |
@@ -46,9 +46,9 @@ Full stack developer building web tools, browser-based utilities and automation 
 | [hui](https://fs-frost.github.io/hui/) | Reactive HTML UI framework for simple web applications. |
 | [palindrome-gui](https://fs-frost.github.io/palindrome-gui/) | Tells you if a word is a palindrome. |
 
-## Herramientas
+## Tools
 
-| Proyecto | Descripción |
+| Project | Description |
 | --- | --- |
 | [gocker](https://github.com/FS-Frost/gocker) | CLI tool to execute commands on docker containers. |
 | [asu-regex-js](https://github.com/FS-Frost/asu-regex-js) | Parser to work with SubStation Alpha Subtitles (SSA/ASS) in TypeScript and JavaScript. |
