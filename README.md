@@ -22,9 +22,6 @@ Full stack developer building web tools, browser-based utilities and automation 
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=FS-Frost&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FS-Frost&layout=compact&hide_border=true&langs_count=8" />
-
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=FS-Frost&theme=github-dark-dimmed&hide_border=true" />
 
 </div>
