@@ -30,6 +30,7 @@ Full stack developer building web tools, browser-based utilities and automation 
 
 | Project | Description |
 | --- | --- |
+| [yomigaeru](https://fs-frost.github.io/yomigaeru/) | Static, offline-first PWA to learn Japanese with spaced-repetition (SRS) and multimodal AI (Gemini). |
 | [sql-playground](https://fs-frost.github.io/sql-playground/) | Online SQL editor with SQLite running on the browser. |
 | [mai-chat](https://fs-frost.github.io/mai-chat/) | AI-powered chat running on the browser with GPU acceleration. |
 | [dictionary](https://fs-frost.github.io/dictionary) | Online dictionary. |
