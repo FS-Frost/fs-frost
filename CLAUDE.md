@@ -15,7 +15,7 @@ The project list lives in the **mai-tools** repo at `static/tools.json`, publish
 
 - To add, remove or edit a project: change `tools.json` in mai-tools, not this README.
 - Never hand-edit the region between the `tools:` markers; it is overwritten.
-- Tables are grouped by `category`, in order of first appearance in `tools.json`, using the `en`/`es` text per file.
+- One single table (Category | Project | Description | Stack) so every row shares column widths: GitHub sizes each table to its content, so separate tables per category looked uneven. Rows are grouped by `category` in order of first appearance in `tools.json`, with the category shown only on the group's first row, using the `en`/`es` text per file.
 - Spanish category labels in the script must match the `es` dictionary in mai-tools' `src/lib/text.ts`. A new category without a label shows its raw `tools.json` name.
 - Stack badges come from the `badges` map in the script. A stack missing there gets a plain grey badge; add it to the map (same colors as `stackColors` in mai-tools' `Home.svelte`).
 
