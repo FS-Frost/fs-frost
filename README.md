@@ -2,55 +2,123 @@
 
 # Eduardo Hinojosa
 
-**Full Stack Developer · DevOps · AI Enthusiast**
+**Full Stack Developer · DevOps · AI Enthusiast · Translator**
+
+**English** · [Español](https://github.com/FS-Frost/fs-frost/blob/main/README.es.md)
 
 [![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)](https://go.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![C%23/.NET](https://img.shields.io/badge/C%23%2F.NET-512BD4?style=flat&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white)](https://svelte.dev/)
+[![C# & .NET](https://img.shields.io/badge/C%23%20%26%20.NET-512BD4?style=flat&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white)](https://claude.com/)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-alberto-hinojosa-segovia-68343185)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:eduardo.hinojosa.segovia@gmail.com)
 
 </div>
 
-Full stack developer building web tools, browser-based utilities and automation software across multiple stacks (Go, TypeScript, C#/.NET, PHP). Interested in applying AI to practical tools and in DevOps practices for streamlining delivery pipelines.
-
-## TL;DR: All my tools in one place
-
-[mai-tools](https://fs-frost.github.io/mai-tools/): A curated collection of minimalist web utilities.
+Full stack developer and translator building web tools, browser-based utilities and automation software across multiple stacks (Go, TypeScript, C#/.NET, PHP). Interested in applying AI to practical tools, in DevOps practices for streamlining delivery pipelines, and in tooling for subtitle translation and language learning.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=FS-Frost&theme=github-dark-dimmed&hide_border=true" />
+**TL;DR: All my tools in one place**
+
+[![mai-tools](https://img.shields.io/badge/Open-mai--tools-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)](https://fs-frost.github.io/mai-tools/)
+
+<img src="https://ghchart.rshah.org/2EA043/FS-Frost" alt="FS-Frost contributions" />
 
 </div>
 
-## Websites
+## Claude Code skills
 
-| Project | Description |
-| --- | --- |
-| [yomigaeru](https://fs-frost.github.io/yomigaeru/) | Static, offline-first PWA to learn Japanese with spaced-repetition (SRS) and multimodal AI (Gemini). |
-| [sql-playground](https://fs-frost.github.io/sql-playground/) | Online SQL editor with SQLite running on the browser. |
-| [mai-chat](https://fs-frost.github.io/mai-chat/) | AI-powered chat running on the browser with GPU acceleration. |
-| [dictionary](https://fs-frost.github.io/dictionary) | Online dictionary. |
-| [json2openapi](https://fs-frost.github.io/json2openapi/) | Tool to convert JSON objects to OpenAPI specs. |
-| [excel2json](https://fs-frost.github.io/excel2json) | Tool to convert Excel files to JSON. |
-| [facts](https://fs-frost.github.io/facts/) | Tells you a random fun fact. |
-| [snake](https://fs-frost.github.io/snake/) | Snake game on the browser. |
-| [qr-detector](https://fs-frost.github.io/qr-detector/) | QR detection app. |
-| [asu-web](https://fs-frost.github.io/asu-web/) | Collection of tools for subtitle automation for [syncrajo.net](http://syncrajo.net). |
-| [syncrajo-editor-plantillas](https://fs-frost.github.io/syncrajo-editor-plantillas/) | HTML project editor for [syncrajo.net](http://syncrajo.net). |
-| [hui](https://fs-frost.github.io/hui/) | Reactive HTML UI framework for simple web applications. |
-| [palindrome-gui](https://fs-frost.github.io/palindrome-gui/) | Tells you if a word is a palindrome. |
+Install my [agent skills](https://github.com/FS-Frost/skills) as a Claude Code plugin:
 
-## Tools
+```bash
+claude plugin marketplace add FS-Frost/skills
+claude plugin install skills@skills
+```
 
-| Project | Description |
-| --- | --- |
-| [gocker](https://github.com/FS-Frost/gocker) | CLI tool to execute commands on docker containers. |
-| [asu-regex-js](https://github.com/FS-Frost/asu-regex-js) | Parser to work with SubStation Alpha Subtitles (SSA/ASS) in TypeScript and JavaScript. |
-| [wallpaper-remixer](https://github.com/FS-Frost/wallpaper-remixer) | CLI tool to remix and sync desktop and browser wallpapers. |
-| [img2rgba](https://github.com/FS-Frost/img2rgba) | Image converter to plain RGBA. |
-| [PageManager](https://github.com/FS-Frost/PageManager) | .NET Core WPF application to manage posting on Facebook Pages. |
-| [DealsScraper](https://github.com/FS-Frost/DealsScraper) | Nintendo Switch USA eshop deals scraper using Selenium and ChromeDriver. |
+## Projects
+
+<!-- tools:start -->
+<!-- Generated by scripts/generate-readme.ts from mai-tools' tools.json. Do not edit by hand. -->
+
+### AI
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Browser Local AI Chat](https://fs-frost.github.io/mai-chat) | Chat with AI models running fully in your browser, no server required. | ![Svelte][svelte] |
+| [Agent Skills](https://github.com/FS-Frost/skills) | Personal collection of agent skills for Claude Code and other agents, installable as a plugin marketplace. | ![Claude][claude] ![JavaScript][javascript] |
+
+### Learning
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Sensei](https://fs-frost.github.io/sensei) | Learn to read Japanese from Spanish: SRS, dictionary and Gemini tutor, all in the browser. | ![Svelte][svelte] ![Gemini][gemini] |
+| [Yomigaeru](https://fs-frost.github.io/yomigaeru) | Learn Japanese offline: spaced-repetition flashcards with multimodal AI (Gemini). | ![Svelte][svelte] ![Gemini][gemini] |
+
+### Coding
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | TypeScript parser to work with SubStation Alpha (.ass) subtitles. | ![TypeScript][typescript] |
+| [Gocker](https://github.com/FS-Frost/gocker) | Docker commands, but easy — a friendlier CLI for everyday Docker. | ![Go][go] ![Docker][docker] |
+| [HUI](https://fs-frost.github.io/hui) | A reactive HTML UI framework for building interfaces fast. | ![JavaScript][javascript] |
+
+### Converters
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convert spreadsheets to JSON and back, right in the browser. | ![Svelte][svelte] |
+| [JSON → OpenAPI](https://fs-frost.github.io/json2openapi) | Generate OpenAPI schemas from raw JSON payloads instantly. | ![Svelte][svelte] |
+| [OpenAPI → Go](https://github.com/FS-Frost/openapi2go) | CLI tool to generate Go code from OpenAPI specifications. | ![Go][go] |
+
+### Images
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [QR Detector](https://fs-frost.github.io/qr-detector) | Detect and decode QR codes from images or your camera. | ![Svelte][svelte] |
+| [Wallpaper Remixer](https://github.com/FS-Frost/wallpaper-remixer) | CLI tool to remix and sync desktop and browser wallpapers. | ![Go][go] |
+| [Image → RGBA](https://github.com/FS-Frost/img2rgba) | Convert images to plain RGBA data. | ![TypeScript][typescript] |
+
+### Plain text
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Remove Break Lines](https://fs-frost.github.io/mai-tools/?page=text.removeBreakLines) | Collapse line breaks into spaces to flatten any text block. | ![Svelte][svelte] |
+| [Remove Duplicates](https://fs-frost.github.io/mai-tools/?page=text.removeDuplicates) | Strip duplicate entries from a comma-separated list. | ![Svelte][svelte] |
+
+### SQL
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [SQL Playground](https://fs-frost.github.io/sql-playground) | Run SQL queries against an in-browser database sandbox. | ![Svelte][svelte] |
+
+### Translation
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Asu Web](https://fs-frost.github.io/asu-web) | Tools for subtitle automation and batch processing. | ![Svelte][svelte] |
+| [Asu CLI](https://github.com/FS-Frost/asu-cli) | Spanish CLI for ASS subtitle translation tasks: AviSynth scripts, font checks, merging and rescaling. | ![TypeScript][typescript] ![Bun][bun] |
+| [SyncRajo Template Editor](https://fs-frost.github.io/syncrajo-editor-plantillas) | Web editor to create and publish SyncRajo Fansub project templates. | ![Svelte][svelte] |
+| [English Dictionary](https://fs-frost.github.io/dictionary) | Look up English word definitions quickly and cleanly. | ![Svelte][svelte] |
+
+### Fun
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [Random Facts](https://fs-frost.github.io/facts) | Discover a surprising fact with every click. | ![React][react] |
+| [Snake](https://fs-frost.github.io/snake) | The classic Snake game, playable in your browser. | ![TypeScript][typescript] |
+
+[svelte]: https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white
+[claude]: https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white
+[javascript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black
+[gemini]: https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white
+[typescript]: https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white
+[go]: https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white
+[docker]: https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white
+[bun]: https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white
+[react]: https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB
+<!-- tools:end -->

@@ -1,0 +1,34 @@
+name: Update README projects
+
+on:
+    schedule:
+        - cron: "0 6 * * *"
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    update-readme:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v5
+
+            - uses: oven-sh/setup-bun@v2.0.2
+              with:
+                  bun-version: latest
+
+            - name: Generate project tables from mai-tools
+              run: bun scripts/generate-readme.ts
+
+            - name: Commit if changed
+              run: |
+                  if git diff --quiet README.md README.es.md; then
+                      echo "READMEs are up to date"
+                      exit 0
+                  fi
+                  git config user.name "github-actions[bot]"
+                  git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+                  git commit -m "docs: sync project tables from mai-tools" README.md README.es.md
+                  git push
