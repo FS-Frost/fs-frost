@@ -5,14 +5,10 @@
 //   bun scripts/generate-readme.ts                                  # published JSON
 //   bun scripts/generate-readme.ts ../mai-tools/static/tools.json   # local checkout
 
-const defaultSource = "https://fs-frost.github.io/mai-tools/tools.json";
-const maiToolsUrl = "https://fs-frost.github.io/mai-tools/";
+import { defaultSource, loadTools, localize, maiToolsUrl, type Locale, type Tool } from "./tools.ts";
+
 const startMarker = "<!-- tools:start -->";
 const endMarker = "<!-- tools:end -->";
-
-type Locale = "en" | "es";
-
-type LocalizedText = string | { en: string; es: string };
 
 type Readme = {
     path: URL;
@@ -48,16 +44,6 @@ const readmes: Readme[] = [
     },
 ];
 
-type Tool = {
-    id: string;
-    name: LocalizedText;
-    description: LocalizedText;
-    category: string;
-    href: string;
-    external: boolean;
-    stack: string[];
-};
-
 /** shields.io badge path per stack, matching the colors used by mai-tools. */
 const badges: Record<string, string> = {
     Svelte: "Svelte-FF3E00?style=flat&logo=svelte&logoColor=white",
@@ -70,23 +56,6 @@ const badges: Record<string, string> = {
     Gemini: "Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white",
     Claude: "Claude-D97757?style=flat&logo=claude&logoColor=white",
 };
-
-async function loadTools(source: string): Promise<Tool[]> {
-    if (source.startsWith("http")) {
-        const response = await fetch(source);
-        if (!response.ok) {
-            throw new Error(`GET ${source} failed: ${response.status}`);
-        }
-
-        return response.json();
-    }
-
-    return Bun.file(source).json();
-}
-
-function localize(text: LocalizedText, locale: Locale): string {
-    return typeof text === "string" ? text : text[locale];
-}
 
 function link(tool: Tool): string {
     // Internal tools use a relative "?page=..." route inside mai-tools.

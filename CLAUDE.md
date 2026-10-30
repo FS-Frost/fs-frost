@@ -7,7 +7,9 @@ GitHub profile README for FS-Frost (shown at https://github.com/FS-Frost). Publi
 - `README.md` (English, rendered on the profile) and `README.es.md` (Spanish): header, badges, intro, skills install snippet and the generated **Projects** section. Keep both in sync when editing the hand-written parts.
 - The language switch under the title uses **absolute URLs** (`https://github.com/FS-Frost` and `.../fs-frost/blob/main/README.es.md`): relative links break on the profile page.
 - `scripts/generate-readme.ts`: Bun script that rewrites everything between `<!-- tools:start -->` and `<!-- tools:end -->` in both files (`readmes` array: path, locale, table headers, category labels).
-- `.github/workflows/readme.yml`: runs the script daily (06:00 UTC) and on manual dispatch; commits only if a README changed.
+- `scripts/sync-repos.ts`: pushes each tool's English description, homepage (only if empty: the tool's site, else mai-tools) and topics (add-only, never removes) to its GitHub repo. Dry-run by default; `--apply` runs `gh repo edit`. Run locally with your `gh` session, never in CI (`GITHUB_TOKEN` cannot edit other repos).
+- `scripts/tools.ts`: shared `Tool` type, `loadTools()` and `localize()` used by both scripts.
+- `.github/workflows/readme.yml`: runs the generator on dispatch (triggered by every mai-tools deploy through its `PROFILE_DISPATCH_TOKEN` secret) and daily at 06:00 UTC as backup; commits only if a README changed.
 
 ## Single source of truth
 
@@ -24,6 +26,7 @@ The project list lives in the **mai-tools** repo at `static/tools.json`, publish
 ```sh
 bun scripts/generate-readme.ts                                  # from the published JSON
 bun scripts/generate-readme.ts ../mai-tools/static/tools.json   # from a local mai-tools checkout
+bun scripts/sync-repos.ts [path] [--apply]                      # repo metadata; dry-run without --apply
 ```
 
 ## Conventions

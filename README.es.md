@@ -47,11 +47,11 @@ claude plugin install skills@skills
 
 | Categoría | Proyecto | Descripción | Stack |
 | --- | --- | --- | --- |
-| **IA** | [Chat IA local en el navegador](https://fs-frost.github.io/mai-chat) | Chatea con modelos de IA que corren completamente en tu navegador, sin servidor. | ![Svelte][svelte] |
+| **IA** | [Chat IA local en el navegador](https://fs-frost.github.io/mai-chat) | Chatea con modelos de IA que corren completamente en tu navegador con WebGPU, sin servidor. | ![Svelte][svelte] |
 |  | [Skills para agentes](https://github.com/FS-Frost/skills) | Colección personal de skills para Claude Code y otros agentes, instalable como marketplace de plugins. | ![Claude][claude] ![JavaScript][javascript] |
 | **Aprendizaje** | [Sensei](https://fs-frost.github.io/sensei) | Aprende a leer japonés desde el español: SRS, diccionario y tutor Gemini, todo en el navegador. | ![Svelte][svelte] ![Gemini][gemini] |
 |  | [Yomigaeru](https://fs-frost.github.io/yomigaeru) | Aprende japonés sin conexión: tarjetas de repetición espaciada con IA multimodal (Gemini). | ![Svelte][svelte] ![Gemini][gemini] |
-| **Programación** | [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | Parser en TypeScript para trabajar con subtítulos SubStation Alpha (.ass). | ![TypeScript][typescript] |
+| **Programación** | [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | Parser en TypeScript para trabajar con subtítulos SubStation Alpha (.ass), publicado en JSR como @fs-frost/asu. | ![TypeScript][typescript] |
 |  | [Gocker](https://github.com/FS-Frost/gocker) | Comandos de Docker, pero fáciles: un CLI más amigable para el Docker de todos los días. | ![Go][go] ![Docker][docker] |
 |  | [HUI](https://fs-frost.github.io/hui) | Un framework de UI reactivo en HTML para construir interfaces rápido. | ![JavaScript][javascript] |
 | **Conversores** | [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convierte hojas de cálculo a JSON y viceversa, directo en el navegador. | ![Svelte][svelte] |
@@ -62,13 +62,13 @@ claude plugin install skills@skills
 |  | [Imagen → RGBA](https://github.com/FS-Frost/img2rgba) | Convierte imágenes a datos RGBA planos. | ![TypeScript][typescript] |
 | **Texto plano** | [Quitar saltos de línea](https://fs-frost.github.io/mai-tools/?page=text.removeBreakLines) | Convierte los saltos de línea en espacios para aplanar cualquier bloque de texto. | ![Svelte][svelte] |
 |  | [Quitar duplicados](https://fs-frost.github.io/mai-tools/?page=text.removeDuplicates) | Elimina entradas duplicadas de una lista separada por comas. | ![Svelte][svelte] |
-| **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Ejecuta consultas SQL sobre una base de datos de prueba en el navegador. | ![Svelte][svelte] |
-| **Traducción** | [Asu Web](https://fs-frost.github.io/asu-web) | Herramientas para automatizar y procesar subtítulos en lote. | ![Svelte][svelte] |
+| **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Ejecuta consultas SQL sobre SQLite compilado a WASM, directo en el navegador. Instalable como PWA. | ![Svelte][svelte] |
+| **Traducción** | [Asu Web](https://fs-frost.github.io/asu-web) | Herramientas para automatizar el procesamiento de subtítulos SubStation Alpha (SSA/ASS), en lote y en el navegador. | ![Svelte][svelte] |
 |  | [Asu CLI](https://github.com/FS-Frost/asu-cli) | CLI en español para traducir subtítulos ASS: scripts AviSynth, verificación de fuentes, unión y reescalado. | ![TypeScript][typescript] ![Bun][bun] |
-|  | [Editor de plantillas SyncRajo](https://fs-frost.github.io/syncrajo-editor-plantillas) | Editor web para crear y publicar las plantillas de proyectos de SyncRajo Fansub. | ![Svelte][svelte] |
+|  | [Editor de plantillas SyncRajo](https://fs-frost.github.io/syncrajo-editor-plantillas) | Editor web para crear, editar y publicar las plantillas HTML de proyectos de SyncRajo Fansub en Blogger. | ![Svelte][svelte] |
 |  | [Diccionario de inglés](https://fs-frost.github.io/dictionary) | Busca definiciones de palabras en inglés de forma rápida y limpia. | ![Svelte][svelte] |
 | **Diversión** | [Datos curiosos](https://fs-frost.github.io/facts) | Descubre un dato sorprendente con cada clic. | ![React][react] |
-|  | [Snake](https://fs-frost.github.io/snake) | El clásico juego de la serpiente, jugable en tu navegador. | ![TypeScript][typescript] |
+|  | [Snake](https://fs-frost.github.io/snake) | El clásico juego de la serpiente, hecho con p5.js y TypeScript y jugable en tu navegador. | ![TypeScript][typescript] |
 
 [svelte]: https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white
 [claude]: https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white

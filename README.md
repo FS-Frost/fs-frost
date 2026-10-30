@@ -47,11 +47,11 @@ claude plugin install skills@skills
 
 | Category | Project | Description | Stack |
 | --- | --- | --- | --- |
-| **AI** | [Browser Local AI Chat](https://fs-frost.github.io/mai-chat) | Chat with AI models running fully in your browser, no server required. | ![Svelte][svelte] |
+| **AI** | [Browser Local AI Chat](https://fs-frost.github.io/mai-chat) | Chat with AI models running fully in your browser with WebGPU, no server required. | ![Svelte][svelte] |
 |  | [Agent Skills](https://github.com/FS-Frost/skills) | Personal collection of agent skills for Claude Code and other agents, installable as a plugin marketplace. | ![Claude][claude] ![JavaScript][javascript] |
 | **Learning** | [Sensei](https://fs-frost.github.io/sensei) | Learn to read Japanese from Spanish: SRS, dictionary and Gemini tutor, all in the browser. | ![Svelte][svelte] ![Gemini][gemini] |
 |  | [Yomigaeru](https://fs-frost.github.io/yomigaeru) | Learn Japanese offline: spaced-repetition flashcards with multimodal AI (Gemini). | ![Svelte][svelte] ![Gemini][gemini] |
-| **Coding** | [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | TypeScript parser to work with SubStation Alpha (.ass) subtitles. | ![TypeScript][typescript] |
+| **Coding** | [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | TypeScript parser to work with SubStation Alpha (.ass) subtitles, published on JSR as @fs-frost/asu. | ![TypeScript][typescript] |
 |  | [Gocker](https://github.com/FS-Frost/gocker) | Docker commands, but easy — a friendlier CLI for everyday Docker. | ![Go][go] ![Docker][docker] |
 |  | [HUI](https://fs-frost.github.io/hui) | A reactive HTML UI framework for building interfaces fast. | ![JavaScript][javascript] |
 | **Converters** | [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convert spreadsheets to JSON and back, right in the browser. | ![Svelte][svelte] |
@@ -62,13 +62,13 @@ claude plugin install skills@skills
 |  | [Image → RGBA](https://github.com/FS-Frost/img2rgba) | Convert images to plain RGBA data. | ![TypeScript][typescript] |
 | **Plain text** | [Remove Break Lines](https://fs-frost.github.io/mai-tools/?page=text.removeBreakLines) | Collapse line breaks into spaces to flatten any text block. | ![Svelte][svelte] |
 |  | [Remove Duplicates](https://fs-frost.github.io/mai-tools/?page=text.removeDuplicates) | Strip duplicate entries from a comma-separated list. | ![Svelte][svelte] |
-| **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Run SQL queries against an in-browser database sandbox. | ![Svelte][svelte] |
-| **Translation** | [Asu Web](https://fs-frost.github.io/asu-web) | Tools for subtitle automation and batch processing. | ![Svelte][svelte] |
+| **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Run SQL queries on SQLite compiled to WASM, right in the browser. Installable as a PWA. | ![Svelte][svelte] |
+| **Translation** | [Asu Web](https://fs-frost.github.io/asu-web) | Tools to automate SubStation Alpha (SSA/ASS) subtitle processing, in batch and in the browser. | ![Svelte][svelte] |
 |  | [Asu CLI](https://github.com/FS-Frost/asu-cli) | Spanish CLI for ASS subtitle translation tasks: AviSynth scripts, font checks, merging and rescaling. | ![TypeScript][typescript] ![Bun][bun] |
-|  | [SyncRajo Template Editor](https://fs-frost.github.io/syncrajo-editor-plantillas) | Web editor to create and publish SyncRajo Fansub project templates. | ![Svelte][svelte] |
+|  | [SyncRajo Template Editor](https://fs-frost.github.io/syncrajo-editor-plantillas) | Web editor to create, edit and publish SyncRajo Fansub's HTML project templates on Blogger. | ![Svelte][svelte] |
 |  | [English Dictionary](https://fs-frost.github.io/dictionary) | Look up English word definitions quickly and cleanly. | ![Svelte][svelte] |
 | **Fun** | [Random Facts](https://fs-frost.github.io/facts) | Discover a surprising fact with every click. | ![React][react] |
-|  | [Snake](https://fs-frost.github.io/snake) | The classic Snake game, playable in your browser. | ![TypeScript][typescript] |
+|  | [Snake](https://fs-frost.github.io/snake) | The classic Snake game, built with p5.js and TypeScript and playable in your browser. | ![TypeScript][typescript] |
 
 [svelte]: https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white
 [claude]: https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white
