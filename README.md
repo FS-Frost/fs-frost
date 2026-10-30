@@ -64,7 +64,7 @@ claude plugin install skills@skills
 |  | [Remove Duplicates](https://fs-frost.github.io/mai-tools/?page=text.removeDuplicates) | Strip duplicate entries from a comma-separated list. | ![Svelte][svelte] |
 | **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Run SQL queries on SQLite compiled to WASM, right in the browser. Installable as a PWA. | ![Svelte][svelte] |
 | **Translation** | [Asu Web](https://fs-frost.github.io/asu-web) | Tools to automate SubStation Alpha (SSA/ASS) subtitle processing, in batch and in the browser. | ![Svelte][svelte] |
-|  | [Asu CLI](https://github.com/FS-Frost/asu-cli) | Spanish CLI for ASS subtitle translation tasks: AviSynth scripts, font checks, merging and rescaling. | ![TypeScript][typescript] ![Bun][bun] |
+|  | [Asu CLI](https://github.com/FS-Frost/asu-cli) | Spanish CLI for fansub work: AviSynth scripts, font checks, ASS merging and rescaling, final episode encodes and x264 A/B comparisons. | ![TypeScript][typescript] ![Bun][bun] |
 |  | [SyncRajo Template Editor](https://fs-frost.github.io/syncrajo-editor-plantillas) | Web editor to create, edit and publish SyncRajo Fansub's HTML project templates on Blogger. | ![Svelte][svelte] |
 |  | [English Dictionary](https://fs-frost.github.io/dictionary) | Look up English word definitions quickly and cleanly. | ![Svelte][svelte] |
 | **Fun** | [Random Facts](https://fs-frost.github.io/facts) | Discover a surprising fact with every click. | ![React][react] |
