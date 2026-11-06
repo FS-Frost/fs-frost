@@ -37,6 +37,7 @@ const readmes: Readme[] = [
             Images: "Imágenes",
             Learning: "Aprendizaje",
             "Plain text": "Texto plano",
+            Productivity: "Productividad",
             SQL: "SQL",
             Translation: "Traducción",
             Fun: "Diversión",
