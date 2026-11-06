@@ -54,14 +54,15 @@ claude plugin install skills@skills
 | **Programación** | [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | Parser en TypeScript para trabajar con subtítulos SubStation Alpha (.ass), publicado en JSR como @fs-frost/asu. | ![TypeScript][typescript] |
 |  | [Gocker](https://github.com/FS-Frost/gocker) | Comandos de Docker, pero fáciles: un CLI más amigable para el Docker de todos los días. | ![Go][go] ![Docker][docker] |
 |  | [HUI](https://fs-frost.github.io/hui) | Un framework de UI reactivo en HTML para construir interfaces rápido. | ![JavaScript][javascript] |
-| **Conversores** | [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convierte hojas de cálculo a JSON y viceversa, directo en el navegador. | ![Svelte][svelte] |
-|  | [JSON → OpenAPI](https://fs-frost.github.io/json2openapi) | Genera esquemas OpenAPI a partir de payloads JSON al instante. | ![Svelte][svelte] |
+| **Conversores** | [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convierte y edita Excel, CSV y JSON en el navegador: varias hojas, grilla editable, PWA sin conexión. | ![Svelte][svelte] |
+|  | [JSON → OpenAPI](https://fs-frost.github.io/json2openapi) | Convierte muestras JSON en esquemas OpenAPI 3.1, interfaces TypeScript o Zod, directo en el navegador. | ![Svelte][svelte] |
 |  | [OpenAPI → Go](https://github.com/FS-Frost/openapi2go) | CLI para generar código Go a partir de especificaciones OpenAPI. | ![Go][go] |
-| **Imágenes** | [Detector de QR](https://fs-frost.github.io/qr-detector) | Detecta y decodifica códigos QR desde imágenes o tu cámara. | ![Svelte][svelte] |
+| **Imágenes** | [Detector de QR](https://fs-frost.github.io/qr-detector) | Escanea códigos QR y de barras desde la cámara o imágenes. Funciona sin conexión; nada sale de tu equipo. | ![Svelte][svelte] |
 |  | [Wallpaper Remixer](https://github.com/FS-Frost/wallpaper-remixer) | CLI para remezclar y sincronizar fondos de pantalla del escritorio y el navegador. | ![Go][go] |
 |  | [Imagen → RGBA](https://github.com/FS-Frost/img2rgba) | Convierte imágenes a datos RGBA planos. | ![TypeScript][typescript] |
 | **Texto plano** | [Quitar saltos de línea](https://fs-frost.github.io/mai-tools/?page=text.removeBreakLines) | Convierte los saltos de línea en espacios para aplanar cualquier bloque de texto. | ![Svelte][svelte] |
 |  | [Quitar duplicados](https://fs-frost.github.io/mai-tools/?page=text.removeDuplicates) | Elimina entradas duplicadas de una lista separada por comas. | ![Svelte][svelte] |
+| **Productividad** | [Mai Docs](https://fs-frost.github.io/mai-docs) | Documentos, hojas de cálculo y presentaciones que funcionan sin conexión, directo en el navegador (PWA). Abre y guarda docx, xlsx y pptx. | ![Svelte][svelte] |
 | **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Ejecuta consultas SQL sobre SQLite compilado a WASM, directo en el navegador. Instalable como PWA. | ![Svelte][svelte] |
 | **Traducción** | [Asu Web](https://fs-frost.github.io/asu-web) | Herramientas para automatizar el procesamiento de subtítulos SubStation Alpha (SSA/ASS), en lote y en el navegador. | ![Svelte][svelte] |
 |  | [Asu CLI](https://github.com/FS-Frost/asu-cli) | CLI en español para el trabajo de fansub: scripts AviSynth, verificación de fuentes, unión y reescalado de ASS, encode final del episodio y comparación A/B de x264. | ![TypeScript][typescript] ![Bun][bun] |

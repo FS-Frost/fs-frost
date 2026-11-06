@@ -54,14 +54,15 @@ claude plugin install skills@skills
 | **Coding** | [Asu Regex](https://github.com/FS-Frost/asu-regex-js) | TypeScript parser to work with SubStation Alpha (.ass) subtitles, published on JSR as @fs-frost/asu. | ![TypeScript][typescript] |
 |  | [Gocker](https://github.com/FS-Frost/gocker) | Docker commands, but easy — a friendlier CLI for everyday Docker. | ![Go][go] ![Docker][docker] |
 |  | [HUI](https://fs-frost.github.io/hui) | A reactive HTML UI framework for building interfaces fast. | ![JavaScript][javascript] |
-| **Converters** | [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convert spreadsheets to JSON and back, right in the browser. | ![Svelte][svelte] |
-|  | [JSON → OpenAPI](https://fs-frost.github.io/json2openapi) | Generate OpenAPI schemas from raw JSON payloads instantly. | ![Svelte][svelte] |
+| **Converters** | [Excel ↔ JSON](https://fs-frost.github.io/excel2json) | Convert and edit Excel, CSV and JSON in the browser: multiple sheets, editable grid, offline PWA. | ![Svelte][svelte] |
+|  | [JSON → OpenAPI](https://fs-frost.github.io/json2openapi) | Turn JSON samples into OpenAPI 3.1 schemas, TypeScript interfaces or Zod, right in the browser. | ![Svelte][svelte] |
 |  | [OpenAPI → Go](https://github.com/FS-Frost/openapi2go) | CLI tool to generate Go code from OpenAPI specifications. | ![Go][go] |
-| **Images** | [QR Detector](https://fs-frost.github.io/qr-detector) | Detect and decode QR codes from images or your camera. | ![Svelte][svelte] |
+| **Images** | [QR Detector](https://fs-frost.github.io/qr-detector) | Scan QR codes and barcodes from your camera or images. Works offline; nothing leaves your device. | ![Svelte][svelte] |
 |  | [Wallpaper Remixer](https://github.com/FS-Frost/wallpaper-remixer) | CLI tool to remix and sync desktop and browser wallpapers. | ![Go][go] |
 |  | [Image → RGBA](https://github.com/FS-Frost/img2rgba) | Convert images to plain RGBA data. | ![TypeScript][typescript] |
 | **Plain text** | [Remove Break Lines](https://fs-frost.github.io/mai-tools/?page=text.removeBreakLines) | Collapse line breaks into spaces to flatten any text block. | ![Svelte][svelte] |
 |  | [Remove Duplicates](https://fs-frost.github.io/mai-tools/?page=text.removeDuplicates) | Strip duplicate entries from a comma-separated list. | ![Svelte][svelte] |
+| **Productivity** | [Mai Docs](https://fs-frost.github.io/mai-docs) | Documents, spreadsheets and presentations that work offline, right in your browser (PWA). Opens and saves docx, xlsx and pptx. | ![Svelte][svelte] |
 | **SQL** | [SQL Playground](https://fs-frost.github.io/sql-playground) | Run SQL queries on SQLite compiled to WASM, right in the browser. Installable as a PWA. | ![Svelte][svelte] |
 | **Translation** | [Asu Web](https://fs-frost.github.io/asu-web) | Tools to automate SubStation Alpha (SSA/ASS) subtitle processing, in batch and in the browser. | ![Svelte][svelte] |
 |  | [Asu CLI](https://github.com/FS-Frost/asu-cli) | Spanish CLI for fansub work: AviSynth scripts, font checks, ASS merging and rescaling, final episode encodes and x264 A/B comparisons. | ![TypeScript][typescript] ![Bun][bun] |
